@@ -8,17 +8,21 @@ public class Question28 {
         System.out.println("Enter any number: ");
         int num = in.nextInt();
 
-        isPrimeNumber(num);
+        String isprime = isPrimeNumber(num);
+        System.out.println(num + " " + isprime);
     }
-        public static void isPrimeNumber(int a){
+        public static String isPrimeNumber(int a) {
+            if (a == 1 || a == 0) {
+                return "is not a prime number";
+            }
+            if(a==2||a==3||a==5||a==7)
+                return " is a prime number";
+            if(a%2==0 ||a%3==0||a%5==0||a%7==0){
+                return "is not a prime number";
+            }
+            else
+                return "is a prime number";
 
-                if(a/a == 0 && a/ != 0 ) {
-                System.out.println(a +" is prime number");
-                }
-                else{
-                    System.out.println(a +" is not a prime number");
 
-                }
-
-         }
+        }
 }
