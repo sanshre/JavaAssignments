@@ -16,7 +16,7 @@ public class Question29 {
 
     }
 
-     static    int  fact(int b) {
+     static  int  fact(int b) {
         if (b<=1)
             return 1;
 
