@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Question40 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter a string...");it
+        System.out.println("Enter a string...");
         String s1 = in.nextLine();
 
         Question40 revStg = new Question40();
